@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* transition: all .1s ease; */
+}
+
+body{
+    overflow: hidden;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+    /* overflow: hidden; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#bg{
+    width: 100%;
+    height: 100%; 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(255, 0, 0, 0);
+    /* overflow: hidden; */
+}
+
+#camera,#lens,#lensOuter{
+    position: absolute;
+    width: 60em;
+    /* height: 100%;  */
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+#camera{
+    /* background-color: green; */
+    /* transform: rotate(10deg); */
+    border: none;
+}
+#lens{
+    /* background-color: blue; */
+    transform-origin: 55% 68.98%;
+    /* scale: 120%; */
+    transition: all .1s ease;
+}
+#lensOuter{
+    background-color: rgba(128, 128, 128);
+    background: none;
+    transform-origin: 55% 68.98%;
+    /* background-image: url("./Asset/toFindCenterOfImage.png"); */
+    /* opacity: .5; */
+}

@@ -1,0 +1,12 @@
+{
+  "AppVersion": "1.0",
+  "Title": "Camera Live Wallpaper",
+  "Thumbnail": "Camera_Thumbnail.png",
+  "Preview": "Reference.mp4",
+  "Desc": "This is camera live wallpaper. PNGs edited by naveen and wallpaper developed by Rajan",
+  "Author": "Rajanstark , RNK",
+  "License": "MIT",
+  "Contact": "Naanthaan",
+  "Type": 2,
+  "FileName": "index.html"
+}
